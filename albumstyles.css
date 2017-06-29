@@ -9,9 +9,11 @@ body {
         {
         background-image: url("images/daydream.jpg");
         background-repeat: no-repeat;
+        background-size: 500px;
         background-position: center;
-        background-size: 500px 500px;
         height: 500px;
+        width: 500px;
+        border-radius: 50%;;
         }
     a {
         font-family: 'Times New Roman', Times, serif;
@@ -31,12 +33,12 @@ body {
         background-color: grey;
         }  
     .table-striped>tbody>tr:nth-child(odd)>td, 
-.table-striped>tbody>tr:nth-child(odd)>th {
-   background-color:saddlebrown;
+    .table-striped>tbody>tr:nth-child(odd)>th {
+     background-color:saddlebrown;
     }
     .table th{
-   text-align: center;   
-}
-.table td{
-   text-align: center;   
-}
+    text-align: center;   
+    }
+    .table td{
+    text-align: center;   
+    }
