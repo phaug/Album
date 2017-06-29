@@ -1,0 +1,42 @@
+body {
+        background-color: lightcyan;
+    }
+    h2 { color: darkslategray; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    h1 { color:darkslategray; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    h1, h2, h3, p {text-align: center}
+    .backimage
+        {
+        background-image: url("images/daydream.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 500px 500px;
+        height: 500px;
+        }
+    a {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: x-large;
+        text-decoration-line: none;
+        font-weight: none;
+    }    
+    a:hover {
+        text-decoration: underline;
+        background-color: mediumaquamarine;
+    }
+    td {
+        font-style: italic;
+        background-color: tan;
+    }
+    th {
+        background-color: grey;
+        }  
+    .table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color:saddlebrown;
+    }
+    .table th{
+   text-align: center;   
+}
+.table td{
+   text-align: center;   
+}
