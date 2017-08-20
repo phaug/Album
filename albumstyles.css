@@ -7,13 +7,17 @@ body {
     h1, h2, h3, p {text-align: center}
     .backimage
         {
+       
+         border-radius: 50%;
+  background-position: center center;
+  background-size: cover;
+
         background-image: url("images/daydream.jpg");
         background-repeat: no-repeat;
-        background-size: 500px;
-        background-position: center;
-        height: 500px;
-        width: 500px;
-        border-radius: 50%;;
+        background-position: 50%;
+        width: 350px;
+        height: 350px;
+        margin:0 auto;
         }
     a {
         font-family: 'Times New Roman', Times, serif;
